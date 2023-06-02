@@ -1,0 +1,12 @@
+[
+    {
+      "name": "Character 1",
+      "price": 10,
+      "link": "https://example.com/character1"
+    },
+    {
+      "name": "Character 2",
+      "price": 15,
+      "link": "https://example.com/character2"
+    }
+  ]
