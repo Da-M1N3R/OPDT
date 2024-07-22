@@ -136,18 +136,18 @@ body{
    font-size: 2.5rem;
 }
 
-.products-preview .preview .stars{
+/* .products-preview .preview .stars{
    padding:1rem 0;
    font-size: 1.7rem;
-}
+} */
 
-.products-preview .preview .stars i{
+/* .products-preview .preview .stars i{
    color:#27ae60;
-}
+} */
 
-.products-preview .preview .stars span{
-   color:#999;
-}
+/* .products-preview .preview .stars span{
+   color:#d71010;
+}  */
 
 .products-preview .preview p{
    line-height: 1.5;
