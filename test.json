@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Monkey D Luffy",
+        "price": 13.00,
+        "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
+        "extras": [
+            "https://optc-db.github.io/api/images/full/transparent/3/800/3886.png", 
+            "https://optc-db.github.io/api/images/full/transparent/1/500/1593.png", 
+            "https://optc-db.github.io/api/images/full/transparent/2/000/2033.png", 
+            "https://optc-db.github.io/api/images/full/transparent/2/300/2363.png"
+        ]
+    },
+    {
+        "name": "Roronoa Zoro",
+        "price": 12.30,
+        "image": "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
+        "extras": [
+            "https://optc-db.github.io/api/images/full/transparent/4/000/4090.png",
+            "https://optc-db.github.io/api/images/full/transparent/1/300/1361.png",
+            "https://optc-db.github.io/api/images/full/transparent/1/900/1900.png",
+            "https://optc-db.github.io/api/images/full/transparent/2/400/2477.png"
+        ]
+    }
+ ]
+  

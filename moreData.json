@@ -1,0 +1,48 @@
+[
+
+    {
+      "name": "Deadpool",
+      "price": 11.60,
+      "image": "https://www.creativefabrica.com/wp-content/uploads/2022/10/08/Deadpool-Face-Graphic-40704175-1-1.png",
+      "extras": ["https://cdn.mos.cms.futurecdn.net/cUdzu3ZJZsL7fbkriTTh9X-1200-80.jpg", "https://ca-times.brightspotcdn.com/dims4/default/69a42de/2147483647/strip/false/crop/2048x1365+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2f%2Fd8%2F64b4fc8d9fe2ce3cccd4c0dc9dc2%2Fla-et-mn-ryan-reynolds-deadpool-20160209-001", "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/02/deadpool-wolverine7.jpg"]
+    },
+    {
+      "name": "Wolverine",
+      "price": 11.60,
+      "image": "https://cdnb.artstation.com/p/assets/covers/images/045/351/465/large/rafael-loureiro-rafael-loureiro-wwava.jpg?1642523052",
+      "extras": ["https://www.motionpictures.org/wp-content/uploads/2024/04/DVW1880_comp_INH_v0001.1068_R-1024x429.jpg", "https://optc-db.github.io/api/images/full/transparent/1/300/1366.png", "https://optc-db.github.io/api/images/full/transparent/3/000/3066.png"]
+    },
+    {
+      "name": "Hisoka Morow",
+      "price": 12.50,
+      "image": "https://static.wikia.nocookie.net/hunterxhunter/images/4/4e/Hisoka_Morow_HCE_Portrait.png/",
+      "extras": ["https://cdn.mos.cms.futurecdn.net/cUdzu3ZJZsL7fbkriTTh9X-1200-80.jpg", "https://ca-times.brightspotcdn.com/dims4/default/69a42de/2147483647/strip/false/crop/2048x1365+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2f%2Fd8%2F64b4fc8d9fe2ce3cccd4c0dc9dc2%2Fla-et-mn-ryan-reynolds-deadpool-20160209-001", "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/02/deadpool-wolverine7.jpg"]
+    },
+    {
+      "name": "Illumi Zoldyck",
+      "price": 12.20,
+      "image": "https://static.wikia.nocookie.net/hunterxhunter/images/7/72/Illumi_Zoldyck_HCE_Portrait.png/",
+      "extras": ["https://www.motionpictures.org/wp-content/uploads/2024/04/DVW1880_comp_INH_v0001.1068_R-1024x429.jpg", "https://optc-db.github.io/api/images/full/transparent/1/300/1366.png", "https://optc-db.github.io/api/images/full/transparent/3/000/3066.png"]
+    },
+    {
+      "name": "Chrollo Lucilfer",
+      "price": 12.50,
+      "image": "https://static.wikia.nocookie.net/hunterxhunter/images/8/80/Chrollo_Lucilfer_YC_Portrait.png/",
+      "extras": ["https://cdn.mos.cms.futurecdn.net/cUdzu3ZJZsL7fbkriTTh9X-1200-80.jpg", "https://ca-times.brightspotcdn.com/dims4/default/69a42de/2147483647/strip/false/crop/2048x1365+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2f%2Fd8%2F64b4fc8d9fe2ce3cccd4c0dc9dc2%2Fla-et-mn-ryan-reynolds-deadpool-20160209-001", "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/02/deadpool-wolverine7.jpg"]
+    },
+    {
+      "name": "Kite",
+      "price": 10.00,
+      "image": "https://static.wikia.nocookie.net/hunterxhunter/images/1/1d/Kite_CA_Portrait.png/",
+      "extras": [
+        "https://pm1.aminoapps.com/7772/bebc5e7b64127f09793670a83c79efa36d852028r1-1000-1000v2_hq.jpg", 
+        "https://pm1.aminoapps.com/7772/526a9c832cd48fbaaf568dc5cabd82781c086c4cr1-1000-1000v2_hq.jpg", 
+        "https://pm1.aminoapps.com/7772/e7bd358d8969008bb3e4e73c7ca6006f39860b2ar1-1000-1000v2_hq.jpg",
+        "https://pm1.aminoapps.com/7772/f48bf2396638d0b1e4cccbc003300016cf0c6e28r1-1000-1000v2_hq.jpg",
+        "https://pm1.aminoapps.com/7772/9367375a0d3c5a2a63098a939e152da10cd3651ar1-1000-1000v2_hq.jpg",
+        "https://pm1.aminoapps.com/7772/5c685d38402250df94fa7f12f3363c7b66b70546r1-1000-1000v2_hq.jpg",
+        "https://pm1.aminoapps.com/7772/eddbabac6236fc7a6d804ac23492fe533d643298r1-1000-1000v2_hq.jpg"
+      ]
+    }
+ ]
+  
