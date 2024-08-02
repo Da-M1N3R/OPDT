@@ -3,6 +3,7 @@ function generateCardHTML(character) {
   //console.log(character);
   characterCount++;
   const characterId = `${characterCount}`;
+  console.log("Chillies");
   return `
     <div class="product" data-name="p-${characterId}">
       <img src="${character.image}" alt="${character.name}">
@@ -82,7 +83,6 @@ let characters = {};
 
 // Preview Image const
 let preveiwContainer = document.querySelector('.products-preview');
-let previewBox = preveiwContainer.querySelectorAll('.preview');
 
 // Extra Image const
 const extraImg = document.querySelector('.extraImg');
@@ -154,8 +154,8 @@ fetch('test.json')
 
     // console.log(printProduct_1by1(product));
   });
-  getProductNames(data);
-  getProductPrice(data);
+  // getProductNames(data);
+  // getProductPrice(data);
   // console.log(printProduct_all(data));
 
 })
@@ -163,13 +163,16 @@ fetch('test.json')
   console.error("Error fetching data:", error);
 });
 
+
+//generateCardHTML - function
+//generatePreviewCharInfo - function
 fetch('test.json').then(response => response.json()).then(data => {
   characters = data;
-  const xImg = xgenerateExtraImg(characters[0], currentIndex);
-  extraImg.innerHTML += xImg;
+  // const xImg = xgenerateExtraImg(characters[0], currentIndex);
+  // extraImg.innerHTML += xImg;
   // prevBtn.addEventListener('click', prevImage);
   // nextBtn.addEventListener('click', nextImage);
-  charExtraLength = characters[0].extras.length;
+  // charExtraLength = characters[0].extras.length;
   // console.log(charExtraLength);
 
   characters.forEach(character => {
@@ -192,6 +195,9 @@ fetch('test.json').then(response => response.json()).then(data => {
   //   console.log(cardPreviewOPDT);
   //   preveiwContainer.innerHTML += cardPreviewOPDT;
   // });
+  let previewBox = preveiwContainer.querySelectorAll('.preview');
+
+
   document.querySelectorAll('.products-container .product').forEach(product =>{
     product.onclick = () =>{
       preveiwContainer.style.display = 'flex';

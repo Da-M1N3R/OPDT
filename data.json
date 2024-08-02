@@ -14,31 +14,59 @@
       "name": "Roronoa Zoro",
       "price": 12.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
-      "extras": ["https://optc-db.github.io/api/images/full/transparent/4/000/4090.png", "https://optc-db.github.io/api/images/full/transparent/1/300/1361.png", "https://optc-db.github.io/api/images/full/transparent/1/900/1900.png", "https://optc-db.github.io/api/images/full/transparent/2/400/2477.png"]
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/4/000/4090.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1361.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/900/1900.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2477.png"
+      ]
     },
     {
       "name": "Nami",
       "price": 10.00,
       "image": "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
-      "extras": ["https://optc-db.github.io/api/images/full/transparent/3/700/3789.png", "https://optc-db.github.io/api/images/full/transparent/1/300/1366.png", "https://optc-db.github.io/api/images/full/transparent/3/000/3066.png"]
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/700/3789.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1366.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/000/3066.png"
+      ]
     },
     {
-      "name": "Shanks Figarland",
+      "name": "Shanks",
       "price": 13.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
-      "extras": ["https://optc-db.github.io/api/images/full/transparent/3/800/3886.png", "https://optc-db.github.io/api/images/full/transparent/1/500/1593.png", "https://optc-db.github.io/api/images/full/transparent/2/000/2033.png", "https://optc-db.github.io/api/images/full/transparent/2/300/2363.png"]
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/700/2737.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/700/1707.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1380.png", 
+        "https://optc-db.github.io/api/images/full/transparent/4/000/4056.png"
+      ]
     },
     {
       "name": "Dracule Mihawk",
       "price": 13.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
-      "extras": ["https://optc-db.github.io/api/images/full/transparent/4/000/4090.png", "https://optc-db.github.io/api/images/full/transparent/1/300/1361.png", "https://optc-db.github.io/api/images/full/transparent/1/900/1900.png", "https://optc-db.github.io/api/images/full/transparent/2/400/2477.png"]
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/800/1807.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/800/1881.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2185.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/200/2256.png",
+        "https://optc-db.github.io/api/images/full/transparent/4/100/4177.png"
+      ]
     },
     {
       "name": "Charlotte Linlin",
       "price": 13.00,
       "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Charlotte_Linlin_Portrait.png/",
-      "extras": ["https://optc-db.github.io/api/images/full/transparent/3/700/3789.png", "https://optc-db.github.io/api/images/full/transparent/1/300/1366.png", "https://optc-db.github.io/api/images/full/transparent/3/000/3066.png"]
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2612.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/500/2500.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2473.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2472.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/000/3001.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/700/3765.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/900/3972.png"
+      ]
     }
     
  ]

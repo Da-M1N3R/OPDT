@@ -19,10 +19,16 @@ body{
    background: #eee;
 }
 
+.preview .extraImg {
+   float: right;
+   margin-left: auto;
+}
+
 .extraImg {
     display: flex;
-    justify-content: center; /* Horizontally center the content */
+    justify-content: space-between; /* Horizontally center the content */
     align-items: center; /* Vertically center the content */
+    background-color: grey;
 }
   
 .extraImg img {
@@ -133,6 +139,9 @@ body{
    width: 40rem;
 }
 
+.products-preview.active {
+   display: flex;
+}
 .products-preview .preview.active{
    display: inline-block;
 }

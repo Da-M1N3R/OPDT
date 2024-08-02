@@ -18,17 +18,15 @@ function generatePreviewCharInfo(character) {
   return `
     <div class="preview" data-target="p-${characterId}">
       <i class="fas fa-times"></i>
-      <div class="previewCard">
-        <img src="${character.image}" alt="${character.name}">
-        <h3>${character.name}</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-        <div class="price">$${character.price}</div>
-        <div class="buttons">
-          <a href="#" class="buy">buy now</a>
-          <a href="#" class="cart">add to team</a>
-        </div>
+      <img src="${character.image}" alt="${character.name}">
+      <h3>${character.name}</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$${character.price}</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to team</a>
       </div>
-      <div class="extraImg">
+      <div class="extraImg" data-target="p-${characterId}">
         <i class="fas fa-chevron-left"></i>
         <img src="${character.extras[extraImgCounter]}" alt="${character.name}">
         <i class="fas fa-chevron-right"></i>
@@ -56,7 +54,7 @@ console.log(characterCards);
 console.log(previewContainer);
 //generateCardHTML - function
 //generatePreviewCharInfo - function
-fetch('data.json').then(response => response.json()).then(data => {
+fetch('test.json').then(response => response.json()).then(data => {
   characters = data;
   console.log("billy2");
   
