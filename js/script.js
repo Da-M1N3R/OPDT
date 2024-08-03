@@ -1,6 +1,5 @@
 let characterCount = 0;
 function generateCardHTML(character) {
-  //console.log(character);
   characterCount++;
   const characterId = `${characterCount}`;
   return `
@@ -13,7 +12,7 @@ function generateCardHTML(character) {
   `;
 }
 let extraImgCounter = 0;
-function generatePreviewCharInfo(character) {
+function generatePreviewCharInfo(character, extraImgCounter=0) {
   const characterId = `${characterCount}`;
   return `
     <div class="preview" data-target="p-${characterId}">
@@ -37,6 +36,27 @@ function generatePreviewCharInfo(character) {
   `;
 }
 
+function closePreview(event) {
+  // Check for Esc keypress or click event on the close icon
+  if (event.type === 'keydown' && event.key === 'Escape' ||
+      event.target.classList.contains('fa-times')) {
+    close.classList.remove('active');
+    previewContainer.style.display = 'none';
+  }
+}
+
+let i = 0;
+function prevExImg() {
+  if (i <= 0) i = images.length;
+  i--;
+  return generatePreviewCharInfo(characters[0], i);
+} // not working yet
+function nextExImg() {
+  if (i >= images.lenght - 1) i = -1;
+  i++;
+  return generatePreviewCharInfo(characters[0], i);
+} // not working yet
+
 // Product Image const
 const characterCards = document.querySelector(".products-container");
 let characters = {};
@@ -44,45 +64,29 @@ let characters = {};
 // Preview Image const
 const previewContainer = document.querySelector('.products-preview');
 
-
-// 
 let charExtraLength = 0;
 const body = document.querySelector(".body");
 console.log(body);
 
 'use strict';
-console.log("billy");
-console.log(characterCards);
-console.log(previewContainer);
-//generateCardHTML - function
-//generatePreviewCharInfo - function
+
 fetch('data.json').then(response => response.json()).then(data => {
   characters = data;
-  console.log("billy2");
   
   characters.forEach(character => {
     const cardOPDT = generateCardHTML(character);
-    // console.log(cardOPDT);
     const cardPreviewOPDT = generatePreviewCharInfo(character);
 
     characterCards.innerHTML += cardOPDT;
     previewContainer.innerHTML += cardPreviewOPDT;
 
-    // characterCards.innerHTML += genExImg;
-
-    //preveiwContainer.innerHTML += cardPreviewOPDT;
   });
-
-  console.log(characterCards);
-  console.log(previewContainer);
-  console.log(body);
 
   const previewBox = previewContainer.querySelectorAll('.preview');
   document.querySelectorAll('.products-container .product').forEach(product =>{
     product.onclick = () =>{
       previewContainer.style.display = 'flex';
       let name = product.getAttribute('data-name');
-      console.log(name);
       previewBox.forEach(preview =>{
         let target = preview.getAttribute('data-target');
         console.log(target);

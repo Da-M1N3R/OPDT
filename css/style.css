@@ -71,19 +71,19 @@ header .team-name {
 }
 .products-container .product:hover img{
    transform: scale(.9);
+   border: 2px solid lime;
 }
 .products-container .product h3{
    padding:.5rem 0;
+}
+.products-container .product h3,
+.products-container .product .price{
    font-size: 2rem;
-   color:#444;
+   color:grey;
 }
 .products-container .product:hover h3, 
 .products-container .product:hover .price{
    color:lime;
-}
-.products-container .product .price{
-   font-size: 2rem;
-   color:#444;
 }
 
 /* products-preview */
@@ -192,7 +192,9 @@ header .team-name {
    float: right;
    margin-left: auto;
 }
-
+.previewCard img {
+   border: 5px solid #090939;
+}
 .extraImg {
     display: flex;
     justify-content: space-between; /* Horizontally center the content */
@@ -202,8 +204,9 @@ header .team-name {
 .extraImg img {
     border: 5px solid #090939;
     position: relative; /* Position the image absolutely within the container */
-    height: auto;
-    width: 700px;
+    height: 500px;
+    width: auto;
+    max-width: 800px;
 }
 .extraImg .fa-chevron-left,
 .extraImg .fa-chevron-right {
