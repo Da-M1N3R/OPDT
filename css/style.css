@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+/* Gupter */
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+/* Modern Antiqua */
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+/* Caveat */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+/* Oregano */
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
 
 *{
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Oregano', sans-serif;
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
@@ -99,7 +107,6 @@ header .team-name {
 }
 .preview{
    display: none;
-   padding:2rem;
    text-align: center;
    background: #fff;
    position: relative;
@@ -110,17 +117,18 @@ header .team-name {
 .preview.active{
    display: flex;
    justify-content: space-between;
+   flex-direction: row;
 }
 /* previewCard */
 .previewCard {
-   display: inline-block;
+   /* display: inline-block; */
    z-index: 10;
    background-color: #fff;
 }
 
 /* extraImg */
 .extraImg {
-   display: inline-block;
+   /* display: inline-block; */
    z-index: 10;
 }
 
@@ -139,66 +147,102 @@ header .team-name {
    transform: rotate(90deg);
 }
 
-.preview h3{
+.previewCard .name-price h3{
    color:#444;
-   padding:.5rem 0;
    font-size: 2.5rem;
-}
-
-.preview p{
-   line-height: 1.5;
-   padding:1rem 0;
-   font-size: 1.6rem;
-   color:#777;
 }
 
 .preview .price{
-   padding:1rem 0;
    font-size: 2.5rem;
-   color:#27ae60;
+   font-family: 'Modern Antiqua', sans-serif;
+   color: black;
 }
 
 .preview .buttons{
    display: flex;
    gap:1.5rem;
    flex-wrap: wrap;
-   margin-top: 1rem;
 }
 
 .preview .buttons a{
-   flex:1 1 16rem;
+   flex:1rem;
    padding:1rem;
    font-size: 1.8rem;
-   color:#444;
+   background: green;
+   color: #fff;
    border:.1rem solid #444;
 }
 
-.preview .buttons a.cart{
-   background: #444;
-   color:#fff;
-}
-
-.preview .buttons a.cart:hover{
-   background: #111;
-}
-
 .preview .buttons a.buy:hover{
-   background: #444;
-   color:#fff;
+   background: lime;
+   color:black;
 }
 
 
 .preview .extraImg {
-   float: right;
-   margin-left: auto;
+   /* margin-left: auto; */
 }
-.previewCard img {
+
+.previewCard {
+   border: 3px solid #090939;
+}
+
+
+.previewCard .img-priceContainer {
+   display: flex;
+   flex-direction: row;
+   /* border: 3px solid #090939; */
+   justify-content: left;
+   width: 100%;
+}
+.previewCard .img-priceContainer img {
+   height: 100px;
    border: 5px solid #090939;
 }
+.previewCard .img-priceContainer .price {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 10px;
+   border: 5px solid #090939;
+   border-radius: 20px;
+   background: rgb(245, 47, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.previewCard .name-price {
+   display: flex;
+   flex-direction: row;
+   border: 3px solid #090939;
+   width: 100%;
+}
+.previewCard .name-price h3 {
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   text-align: center;
+   flex: 8;
+   border: 3px solid #090939;
+}
+.previewCard .name-price .buttons {
+   flex: 2;
+   border: 3px solid #090939;
+}
+.previewCard p{
+   line-height: 1.5;
+   padding:1rem 0;
+   font-size: 3rem;
+   color:#777;
+   /* border: 3px solid blue; */
+   text-align: left;
+   padding: 10px;
+}
+
 .extraImg {
-    display: flex;
-    justify-content: space-between; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+   border: 3px solid #090939;
+   display: flex;
+   justify-content: space-between; /* Horizontally center the content */
+   align-items: center; /* Vertically center the content */
 }
   
 .extraImg img {
@@ -208,11 +252,30 @@ header .team-name {
     width: auto;
     max-width: 800px;
 }
+.extraImg .extraImgBox p{
+   font-size: 3rem;
+   font-family: "Caveat", sans-serif;
+}
 .extraImg .fa-chevron-left,
 .extraImg .fa-chevron-right {
     cursor: pointer;
     color:#444;
     font-size: 10rem;
+}
+
+.nothingduo {
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+}
+#nothing button{
+   display: flex;
+   justify-content: center;
+   width: 100px;
+   height: 100px;
+   background-color: blue;
+   font-family: sans-serif;
+   cursor: pointer;
 }
 
 
@@ -226,10 +289,16 @@ header .team-name {
    .products-preview .preview img{
       height: 25rem;
    }
+   .preview.active{
+      flex-direction: column;
+   }
 }
 
 @media (max-width:450px){
    html{
       font-size: 50%;
+   }
+   .preview.active{
+      flex-direction: column;
    }
 }
