@@ -4,16 +4,16 @@
       "price": 13.00,
       "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
       "extras": [
-        "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Y1hgWZZoMu96_7Tbi7z8fw.png",
         "https://optc-db.github.io/api/images/full/transparent/3/800/3886.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/500/1593.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/000/2033.png", 
-        "https://optc-db.github.io/api/images/full/transparent/2/300/2363.png"
+        "https://optc-db.github.io/api/images/full/transparent/2/300/2363.png",
+        "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Y1hgWZZoMu96_7Tbi7z8fw.png"
       ]
     },
     {
       "name": "Roronoa Zoro",
-      "price": 12.30,
+      "price": 12.50,
       "image": "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
       "extras": [
         "https://optc-db.github.io/api/images/full/transparent/4/000/4090.png", 
@@ -24,12 +24,74 @@
     },
     {
       "name": "Nami",
-      "price": 10.00,
+      "price": 9.50,
       "image": "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
       "extras": [
         "https://optc-db.github.io/api/images/full/transparent/3/700/3789.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/300/1366.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/000/3066.png"
+      ]
+    },
+    {
+      "name": "Marshall D Teach",
+      "price": 13.20,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2963.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2964.png"
+      ]
+    },
+    {
+      "name": "Kuzan",
+      "price": 12.55,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/600/1668.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/000/2024.png"
+      ]
+    },
+    {
+      "name": "Buggy",
+      "price": 10.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Buggy_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/000/2035.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1302.png"
+      ]
+    },
+    {
+      "name": "Koby",
+      "price": 9.20,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
+      "extras": [
+        "./images/Koby_Digitally_Colored_Manga.webp"
+      ]
+    },
+    {
+      "name": "Sabo",
+      "price": 12.6,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Sabo_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/700/1726.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2440.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/700/1793.png"
+      ]
+    },
+    {
+      "name": "Monkey D Dragon",
+      "price": 15,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
+      "extras": [
+        "./images/Monkey_D_Dragon_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Akainu",
+      "price": 13.40,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1313.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1314.png"
       ]
     },
     {
@@ -106,6 +168,16 @@
       ]
     },
     {
+      "name": "Crocodile",
+      "price": 12.45,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/3c/Crocodile_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/0/300/0383.png", 
+        "https://optc-db.github.io/api/images/full/transparent/0/700/0719.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/600/1615.png"
+      ]
+    },
+    {
       "name": "Rob Lucci",
       "price": 12.05,
       "image": "https://static.wikia.nocookie.net/onepiece/images/f/f2/Rob_Lucci_Portrait.png/",
@@ -114,6 +186,219 @@
         "https://optc-db.github.io/api/images/full/transparent/0/700/0737.png",
         "https://optc-db.github.io/api/images/full/transparent/1/800/1881.png",
         "https://i.ytimg.com/vi/B31VJWiRF-M/maxresdefault.jpg"
+      ]
+    },
+    {
+      "name": "Kaido",
+      "price": 13.00,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2613.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2699.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3608.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/900/3983.png",
+        "./images/Kosanze_Ragnaraku.webp"
+      ]
+    },
+    {
+      "name": "King",
+      "price": 12.20,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/70/King_Portrait.png/",
+      "extras": [
+        "./images/Lunarians_Infobox.webp",
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2990.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/100/3136.png"
+      ]
+    },
+    {
+      "name": "Queen",
+      "price": 11.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/a/aa/Queen_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/500/3540.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/200/3239.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3802.png"
+      ]
+    },
+    {
+      "name": "Jack",
+      "price": 10.15,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Jack_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/200/2231.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2433.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3870.png"
+      ]
+    },
+    {
+      "name": "Page One",
+      "price": 8.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/9f/Page_One_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2983.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2984.png"
+      ]
+    },
+    {
+      "name": "Ulti",
+      "price": 9.10,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/c/cb/Ulti_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/700/3770.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3655.png"
+      ]
+    },
+    {
+      "name": "Who's-Who",
+      "price": 9.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Who%27s-Who_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/400/3435.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3651.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/700/3778.png"
+      ]
+    },
+    {
+      "name": "Black Maria",
+      "price": 7.60,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Black_Maria_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/400/3434.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3649.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3872.png"
+      ]
+    },
+    {
+      "name": "Sasaki",
+      "price": 7.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Sasaki_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/400/3431.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3653.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3875.png"
+      ]
+    },
+    {
+      "name": "X Drake",
+      "price": 8.80,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/5/5c/X_Drake_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/400/3436.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2985.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/100/3142.png"
+      ]
+    },
+    {
+      "name": "Sheepshead",
+      "price": 6.10,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Sheepshead_Portrait.png/",
+      "extras": [
+        "./images/Sheepshead_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Ginrummy",
+      "price": 5.20,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/5/57/Ginrummy_Portrait.png/",
+      "extras": [
+        "./images/Ginrummy_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Holed'em",
+      "price": 5.40,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/f/f6/Holed%27em_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/700/2703.png"
+      ]
+    },
+    {
+      "name": "Speed",
+      "price": 5.60,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/8/8f/Speed_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/700/2705.png"
+      ]
+    },
+    {
+      "name": "Dobon",
+      "price": 5.25,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/9a/Dobon_Portrait.png/",
+      "extras": [
+        "./images/Dobon_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Daifugo",
+      "price": 6.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/b2/Daifugo_Portrait.png/",
+      "extras": [
+        "./images/Daifugo_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Babanuki",
+      "price": 6.60,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/6a/Babanuki_Portrait.png/",
+      "extras": [
+        "./images/Babanuki_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Solitaire",
+      "price": 5.40,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/1/1a/Solitaire_Portrait.png/",
+      "extras": [
+        "./images/Solitaire_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Bao Huang",
+      "price": 8.00,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/dd/Bao_Huang_Portrait.png/",
+      "extras": [
+        "./images/Bao_Huang_Anime_Concept_Art.webp",
+        "https://optc-db.github.io/api/images/full/transparent/4/100/4117.png"
+      ]
+    },
+    {
+      "name": "Briscola",
+      "price": 6.20,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Briscola_Portrait.png/",
+      "extras": [
+        "./images/Briscola_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Fourtricks",
+      "price": 5.10,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Fourtricks_Portrait.png/",
+      "extras": [
+        "./images/Fourtricks_Manga_Infobox.webp"
+      ]
+    },
+    {
+      "name": "Hamlet",
+      "price": 5.10,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/9b/Hamlet_Portrait.png/",
+      "extras": [
+        "./images/Hamlet_Anime_Infobox.webp"
+      ]
+    },
+    {
+      "name": "Mizerka",
+      "price": 5.20,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/33/Mizerka_Portrait.png/",
+      "extras": [
+        "./images/Mizerka_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Poker",
+      "price": 5.70,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/4/41/Poker_Portrait.png/",
+      "extras": [
+        "./images/Poker_Anime_Concept_Art.webp"
       ]
     },
     {
@@ -211,6 +496,71 @@
       ]
     },
     {
+      "name": "Charlotte Mondée",
+      "price": 5.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/a/a0/Charlotte_Mond%C3%A9e_Portrait.png/",
+      "extras": [
+        "./images/Charlotte_Mondee_Anime_Infobox.webp"
+      ]
+    },
+    {
+      "name": "Charlotte Opera",
+      "price": 6.95,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/c/cc/Charlotte_Opera_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2162.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2163.png"
+      ]
+    },
+    {
+      "name": "Charlotte Counter",
+      "price": 6.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/f/fd/Charlotte_Counter_Portrait.png/",
+      "extras": [
+        "./images/Charlotte_Counter_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Charlotte Cadenza",
+      "price": 6.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d5/Charlotte_Cadenza_Portrait.png/",
+      "extras": [
+        "./images/Charlotte_Cadenza_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Charlotte Cabaletta",
+      "price": 6.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Cabaletta_Portrait.png/",
+      "extras": [
+        "./images/Charlotte_Cabaletta_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Charlotte Zuccotto",
+      "price": 5.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Charlotte_Zuccotto_Portrait.png/",
+      "extras": [
+        "./images/Zuccotto_Manga_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Charlotte Brûlée",
+      "price": 7.05,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/75/Charlotte_Br%C3%BBl%C3%A9e_Portrait.png/",
+      "extras": [
+        "./images/Br3Fe_Digitally_Colored_Manga.webp"
+      ]
+    },
+    {
+      "name": "Charlotte Broyé",
+      "price": 5.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/6f/Charlotte_Broy%C3%A9_Portrait.png/",
+      "extras": [
+        "./images/Charlotte_Broye_Anime_Concept_Art.webp"
+      ]
+    },
+    {
       "name": "Charlotte Citron",
       "price": 6.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/8/82/Charlotte_Citron_Portrait.png/",
@@ -228,7 +578,7 @@
     },
     {
       "name": "Charlotte Custard",
-      "price": 6.00,
+      "price": 5.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/8/85/Charlotte_Custard_Portrait.png/",
       "extras": [
         "./images/Charlotte_Custard_Anime_Concept_Art.webp"
@@ -244,7 +594,7 @@
     },
     {
       "name": "Charlotte Mash",
-      "price": 6.00,
+      "price": 5.20,
       "image": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Charlotte_Mash_Portrait.png/",
       "extras": [
         "./images/Charlotte_Mash_Manga_Concept_Art.webp",
@@ -253,7 +603,7 @@
     },
     {
       "name": "Charlotte Moscato",
-      "price": 5.50,
+      "price": 5.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/d/d9/Charlotte_Moscato_Portrait.png/",
       "extras": [
         "./images/Charlotte_Moscato_Anime_Concept_Art.webp"
@@ -261,11 +611,78 @@
     },
     {
       "name": "Charlotte Angle",
-      "price": 4.00,
+      "price": 5.20,
       "image": "https://static.wikia.nocookie.net/onepiece/images/2/27/Charlotte_Angel_Portrait.png/",
       "extras": [
         "./images/Charlotte_Angel_Manga_Concept_Art.webp",
         "./images/Charlotte_Angel_Anime_Infobox.png"
+      ]
+    },
+    {
+      "name": "Charlotte Mont-d'Or",
+      "price": 6.95,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/31/Charlotte_Mont-d%27Or_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/500/2595.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/300/2369.png"
+      ]
+    },
+    {
+      "name": "Charlotte Galette",
+      "price": 6.90,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/4/48/Charlotte_Galette_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/700/2751.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/300/2345.png"
+      ]
+    },
+    {
+      "name": "Charlotte Snack",
+      "price": 8.20,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Charlotte_Snack_Portrait.png/",
+      "extras": [
+        "./images/Charlotte_Snack_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Charlotte Chiffon",
+      "price": 4.0,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Charlotte_Chiffon_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/300/2303.png"
+      ]
+    },
+    {
+      "name": "Charlotte Lola",
+      "price": 5.40,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Charlotte_Lola_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/0/800/0809.png"
+      ]
+    },
+    {
+      "name": "Charlotte Praline",
+      "price": 3.90,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Praline_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/200/2269.png"
+      ]
+    },
+    {
+      "name": "Charlotte Pudding",
+      "price": 5.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/5/55/Charlotte_Pudding_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/900/1962.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2152.png"
+      ]
+    },
+    {
+      "name": "Charlotte Flampe",
+      "price": 3.90,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/2/25/Charlotte_Flampe_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/300/2366.png"
       ]
     },
     {
@@ -294,7 +711,7 @@
     },
     {
       "name": "Charlotte Prim",
-      "price": 5.50,
+      "price": 5.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/6/63/Charlotte_Prim_Portrait.png/",
       "extras": [
         "./images/Charlotte_Prim_Manga_Concept_Art.webp"
