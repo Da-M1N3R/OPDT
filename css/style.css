@@ -66,16 +66,16 @@ header .team-name {
    outline: .1rem solid #ccc;
    outline-offset: -1.5rem;
    cursor: pointer;
-   width: 20rem;
-   height: 25rem;
+   width: 25rem;
+   height: 30rem;
 }
 .products-container .product:hover{
    outline: .2rem solid #222;
    outline-offset: 0;
 }
 .products-container .product img{
-   width: 10rem;
-   height: 10rem;
+   width: 15rem;
+   height: 15rem;
 }
 .products-container .product:hover img{
    transform: scale(.9);
@@ -274,13 +274,14 @@ header .team-name {
    padding: 20px 0;
    background-color: #ccc;
    /* height: 1000px; */
+   /* margin-bottom: 50px; */
 }
   
 .extraImg .extraImgBox img{
    background-color: white;
    border: 5px solid #090939;
    position: relative; /* Position the image absolutely within the container */
-   max-height: 700px;
+   max-height: 650px;
    height: auto;
    max-width: 100%;
    object-fit: contain;
@@ -360,7 +361,7 @@ header .team-name {
 
 /* Small screens (phones) */
 @media (max-width:400px){
-   html{
+   /* html{
       font-size: 50%;
    }
    .preview.active{
@@ -376,7 +377,7 @@ header .team-name {
    .extraImg .fa-chevron-left,
    .extraImg .fa-chevron-right {
       font-size: 5rem;
-   }
+   } */
    /* .extraImg .extraImgBox img {
       border: 1px solid #090939;
       height: auto;
