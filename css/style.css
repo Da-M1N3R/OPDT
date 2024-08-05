@@ -114,10 +114,10 @@ header .team-name {
    top: 0;
    left: 0;
    right: 0;
-   bottom: 0;
+   /* bottom: 0; */
    /* margin:2rem; */
    margin: 20px;
-   border: 5px solid #090939;
+   /* border: 5px solid red; */
    border-top: 0; border-left: 0; border-right: 0;
    width: 90%;
 
@@ -318,7 +318,15 @@ header .team-name {
    }
    .preview.active{
       flex-direction: column;
+      height: 100vh;
    }
+   .previewCard{
+      flex: 1;
+   }
+   .container-ExImg{
+      flex: 8;
+   }
+
 }
 
 /* Medium screens (tablets) */
