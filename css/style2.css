@@ -126,6 +126,10 @@ body{
    display: none;
    align-items: center;
    justify-content: center;
+   
+   max-width: 100%;
+   max-height: 100%;
+   overflow-y: scroll;
 }
 
 .products-preview .preview{
@@ -137,6 +141,7 @@ body{
    /* margin:2rem; */
    margin: 2rem 100rem 2rem 2rem;
    width: 40rem;
+
 }
 
 .products-preview.active {
