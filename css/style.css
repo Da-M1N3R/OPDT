@@ -116,7 +116,7 @@ header .team-name {
    right: 0;
    bottom: 0;
    /* margin:2rem; */
-   margin: auto;
+   margin: 20px;
    border: 5px solid #090939;
    border-top: 0; border-left: 0; border-right: 0;
    width: 90%;
@@ -210,7 +210,10 @@ header .team-name {
 
 .previewCard {
    border: 3px solid #090939;
+   display: flex;
+   flex-direction: column;
    flex: 3;
+   margin: 0 0 auto 0;
 }
 
 .previewCard .img-priceContainer {
@@ -255,7 +258,6 @@ header .team-name {
 }
 .previewCard p{
    line-height: 1.5;
-   padding:1rem 0;
    font-size: 3rem;
    color:#777;
    /* border: 3px solid blue; */
@@ -269,8 +271,9 @@ header .team-name {
    display: flex;
    justify-content: space-between; /* Horizontally center the content */
    align-items: center; /* Vertically center the content */
-   padding-top: 20px;
+   padding: 20px 0;
    background-color: #ccc;
+   /* height: 1000px; */
 }
   
 .extraImg .extraImgBox img{

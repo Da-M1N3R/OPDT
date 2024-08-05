@@ -38,15 +38,17 @@ function generatePreviewCharInfo(character, extraImgCounter=0) {
         </p>
       </div>
 
-      <div class="extraImg">
-        <i class="fas fa-chevron-left" id="prevBtnID-${characterId}"></i>
+      <div class="container-ExImg">
+        <div class="extraImg">
+          <i class="fas fa-chevron-left" id="prevBtnID-${characterId}"></i>
 
-        <div class="extraImgBox">
-          <img src="${character.extras[extraImgCounter]}" alt="${character.name}">
-          <p>(${extraImgPg}/${extraImgAllPg})</p>
+          <div class="extraImgBox">
+            <img src="${character.extras[extraImgCounter]}" alt="${character.name}">
+            <p>(${extraImgPg}/${extraImgAllPg})</p>
+          </div>
+
+          <i class="fas fa-chevron-right" id="nextBtnID-${characterId}"></i>
         </div>
-
-        <i class="fas fa-chevron-right" id="nextBtnID-${characterId}"></i>
       </div>
     </div>
   `;
