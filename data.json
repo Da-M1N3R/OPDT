@@ -153,6 +153,7 @@
       "price": 13.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
       "extras": [
+        "./images/Shanks_Manga_Color_Scheme.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/700/2737.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/700/1707.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/300/1380.png", 
@@ -164,6 +165,9 @@
       "price": 13.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
       "extras": [
+        "./images/Mihawk_2007_Calendar.webp",
+        "./images/Kokutou_Yoru.webp",
+        "./images/Yoru_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/1/800/1807.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/800/1881.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/100/2185.png", 

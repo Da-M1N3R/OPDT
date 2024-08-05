@@ -240,6 +240,7 @@ header .team-name {
    justify-content: space-between; /* Horizontally center the content */
    align-items: center; /* Vertically center the content */
    padding-top: 20px;
+   background-color: #ccc;
 }
   
 .extraImg img {
@@ -248,6 +249,9 @@ header .team-name {
     height: 500px;
     width: auto;
     max-width: 800px;
+}
+.extraImgBox img{
+   background-color: white;
 }
 .extraImg .extraImgBox p{
    font-size: 3rem;
