@@ -16,8 +16,10 @@ function generatePreviewCharInfo(character, extraImgCounter=0) {
   let extraImgAllPg = character.extras.length;
   const characterId = `${characterCount}`;
   console.log("CharProduct -", characterCount.toString(),": " , character.name);
+  const characterExImgs = character.extras;
+  console.log("Billy here...", characterExImgs);
   return `
-    <div class="preview" data-target="p-${characterId}">
+    <div class="preview" data-target="p-${characterId}" id="p-${characterId}">
       <i class="fas fa-times"></i>
       <div class="previewCard">
 
@@ -34,20 +36,29 @@ function generatePreviewCharInfo(character, extraImgCounter=0) {
         </div>
 
         <p>
-          Saint Figarland Garling is a World Noble of the Figarland Family and the Supreme Commander (最高司令官, Saikō Shireikan?) of the God's Knights, of whom he is the first to be introduced. He was formerly active as a "champion" on God Valley.[1]
+          Saint Figarland Garling is a World Noble of the Figarland Family and the Supreme Commander (最高司令官, Saikō Shireikan?) of the God's Knights, of whom he is the first to be introduced. He was formerly active as a "champion" on God Valley.[1]<br>
+          <strong>Faction:</strong>
+          CPO
+          <br>
+          <strong>Devil Fruit:</strong><br>
+          Neko Neko no Mi, Model: Leopard<br>
+          <strong>Moves:</strong><br>
+          1) Shogun<br>
+          2) Ryokogun<br>
+          3) Bajrang Gun
         </p>
       </div>
 
       <div class="container-ExImg">
         <div class="extraImg">
-          <i class="fas fa-chevron-left" id="prevBtnID-${characterId}"></i>
+          <i class="fas fa-chevron-left" id="prev-${characterId}"></i>
 
           <div class="extraImgBox">
             <img src="${character.extras[extraImgCounter]}" alt="${character.name}">
             <p>(${extraImgPg}/${extraImgAllPg})</p>
           </div>
 
-          <i class="fas fa-chevron-right" id="nextBtnID-${characterId}"></i>
+          <i class="fas fa-chevron-right" id="next-${characterId}"></i>
         </div>
       </div>
     </div>
@@ -144,10 +155,22 @@ function handleLeftClick() {
 
 let characters;
 
-
 fetch('data.json').then(response => response.json()).then(data => {
   characters = data;
   
+  let allExtras = [];
+  characters.forEach(product => {
+    const name = product.name;
+    const extras = product.extras;
+
+    console.log(`Name = ${name}`);
+    console.log('Extras =', extras);
+
+    allExtras.push(extras);
+  })
+
+  console.log("Evil =", allExtras); // access data of extras
+
   characters.forEach(character => {
     const cardOPDT = generateCardHTML(character);
     const cardPreviewOPDT = generatePreviewCharInfo(character);
@@ -172,7 +195,7 @@ fetch('data.json').then(response => response.json()).then(data => {
         // console.log("2nd hook, name = ", name, "& target = ", target);
 
         if(name == target){
-
+          console.log("preview is here", preview);
           console.log("name=", name, "& target=", target);
           // console.log(typeof target);
           n = target_StringSlice(target) - 1;
@@ -190,20 +213,71 @@ fetch('data.json').then(response => response.json()).then(data => {
           // console.log(rightChevron);
           
 
-          console.log("billy closed the door")
-
           const img = preview.querySelector('.preview .extraImg img');
           // console.log(img.src)
 
-          let idName = 'prevBtnID-' + (n + 1).toString()
-          const leftBtn = document.getElementById(idName);
-          console.log("Daki", idName);
+          // Extras array
+          const myArray = allExtras[n];
+          const myBox = preview.querySelector('.preview .container-ExImg .extraImg .extraImgBox');
+
+          // Product Name
+          let productIdName = 'p-' + (n + 1).toString();
+          const productId = document.getElementById(productIdName);
+          const charName = productId.querySelector('h3');
+          const charNameh3 = charName.textContent || charName.innerText;
+
+          // Product Exrtra Image Length
+          const charExL = productId.querySelector('.extraImgBox p');
+          const charExLptag = charExL.textContent || charExL.innerText;
+
+          // leftBtn
+          let leftIdName = 'prev-' + (n + 1).toString()
+          const prevBtn = document.getElementById(leftIdName);
           // leftBtn.addEventListener('click', event => {
           //   console.log("billy, we are clicking LEFT.");
           // })
-          leftBtn.addEventListener('click', event => {
-            generatePreviewCharInfo(characters[0], extraImgCounter=1);
-          })
+          // rightBtn
+          let rightIdName = 'next-' + (n + 1).toString()
+          const nextBtn = document.getElementById(rightIdName);
+
+
+          // changePic function
+          let num = 0
+
+          function changePic(direction) {
+            if (direction === "prev") {
+              num--; // Decrement for previous image
+              if (num < 0) {
+                num = myArray.length - 1; // Wrap around to last image on underflow
+              }
+            } else if (direction === "next") {
+              num++; // Increment for next image
+              if (num === myArray.length) {
+                num = 0; // Wrap around to first image on overflow
+              }
+            }
+
+            const imgElement = myBox.querySelector("img"); // Get the image element
+
+            if (imgElement) {
+              imgElement.src = myArray[num];
+            } else {
+              console.error("Image element not found!");
+            }
+          }
+
+          // left & right Btn event listeners
+          // prevBtn.addEventListener('click', event => {
+          //   console.log("Actual Id =", n);
+          //   // console.log("CharID =", idName);
+          //   console.log("Billy is here, fear not.");
+          //   console.log("Character Name =", charNameh3);
+          //   console.log("Length of extraImg =", charExLptag);
+          //   console.log("Extra img array length =", allExtras[n].length);
+          //   // generatePreviewCharInfo(characters[0], extraImgCounter=1);
+          // })
+          prevBtn.addEventListener("click", () => changePic("prev"));
+          nextBtn.addEventListener("click", () => changePic("next"));
           
           // leftBtn.id = 'prevBtn';
 
@@ -235,8 +309,5 @@ fetch('data.json').then(response => response.json()).then(data => {
   //   console.log("Say cheese");
   // });
 })
-const nothingBtn = document.getElementById('nothing');
-nothingBtn.addEventListener('click', event => {
-  console.log("billy is back, & he brought Alicia.");
-})
+
 
