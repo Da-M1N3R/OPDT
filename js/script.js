@@ -36,16 +36,16 @@ function generatePreviewCharInfo(character, extraImgCounter=0) {
         </div>
 
         <p>
-          Saint Figarland Garling is a World Noble of the Figarland Family and the Supreme Commander (最高司令官, Saikō Shireikan?) of the God's Knights, of whom he is the first to be introduced. He was formerly active as a "champion" on God Valley.[1]<br>
+          Saint Figarland Garling is a World Noble of the Figarland Family and the Supreme Commander (最高司令官, Saikō Shireikan?) of the God's Knights, of whom he is the first to be introduced.<br>
           <strong>Faction:</strong>
-          CPO
+          {character.faction}
           <br>
-          <strong>Devil Fruit:</strong><br>
-          Neko Neko no Mi, Model: Leopard<br>
+          <strong>Devil Fruit:</strong>
+          {character.devilfruit}<br>
           <strong>Moves:</strong><br>
-          1) Shogun<br>
-          2) Ryokogun<br>
-          3) Bajrang Gun
+          1) {character.moves[0]}<br>
+          2) {character.moves[1]}<br>
+          3) {character.moves[2]}
         </p>
       </div>
 
@@ -55,7 +55,11 @@ function generatePreviewCharInfo(character, extraImgCounter=0) {
 
           <div class="extraImgBox">
             <img src="${character.extras[extraImgCounter]}" alt="${character.name}">
-            <p>(${extraImgPg}/${extraImgAllPg})</p>
+            <span style="display:flex; justify-content:center;">
+              <p>(</p>
+              <p class="pgNum">${extraImgPg}</p>
+              <p>/${extraImgAllPg})</p>
+            </span>
           </div>
 
           <i class="fas fa-chevron-right" id="next-${characterId}"></i>
@@ -226,9 +230,10 @@ fetch('data.json').then(response => response.json()).then(data => {
           const charName = productId.querySelector('h3');
           const charNameh3 = charName.textContent || charName.innerText;
 
-          // Product Exrtra Image Length
-          const charExL = productId.querySelector('.extraImgBox p');
+          // Product Extra Image Length
+          const charExL = productId.querySelector('.extraImgBox .pgNum');
           const charExLptag = charExL.textContent || charExL.innerText;
+          console.log("charExLptag =", charExLptag);
 
           // leftBtn
           let leftIdName = 'prev-' + (n + 1).toString()
@@ -243,7 +248,6 @@ fetch('data.json').then(response => response.json()).then(data => {
 
           // changePic function
           let num = 0
-
           function changePic(direction) {
             if (direction === "prev") {
               num--; // Decrement for previous image
@@ -256,15 +260,22 @@ fetch('data.json').then(response => response.json()).then(data => {
                 num = 0; // Wrap around to first image on overflow
               }
             }
+            let pgNumber = num + 1;
+            if (pgNumber < 0) {
+              pgNumber = myArray.length;
+            }
 
             const imgElement = myBox.querySelector("img"); // Get the image element
 
             if (imgElement) {
               imgElement.src = myArray[num];
+              charExL.textContent = pgNumber;
             } else {
               console.error("Image element not found!");
             }
           }
+
+          
 
           // left & right Btn event listeners
           // prevBtn.addEventListener('click', event => {
@@ -278,7 +289,25 @@ fetch('data.json').then(response => response.json()).then(data => {
           // })
           prevBtn.addEventListener("click", () => changePic("prev"));
           nextBtn.addEventListener("click", () => changePic("next"));
+          document.addEventListener("keydown", event => {
+            if(event.key.startsWith("Arrow")){
+              event.preventDefault()
           
+              switch(event.key){
+                case "ArrowLeft":
+                  console.log("ArrowLeft pressed");
+                  changePic("prev");
+                  break;
+                case "ArrowRight":
+                  console.log("ArrowRight pressed");
+                  changePic("next");
+                  break;
+                case "Escape":
+                  closePreviewTab();
+                  break;
+              }
+            }
+          })
           // leftBtn.id = 'prevBtn';
 
           // console.log("Doma", leftBtn);
@@ -294,12 +323,19 @@ fetch('data.json').then(response => response.json()).then(data => {
     };
   });
 
-  previewBox.forEach(close =>{
-    close.querySelector('.fa-times').onclick = () =>{
-      close.classList.remove('active');
-      previewContainer.style.display = 'none';
-    };
-  });
+  function closePreviewTab() {
+    previewBox.forEach(close =>{
+      close.querySelector('.fa-times').onclick = () =>{
+        close.classList.remove('active');
+        previewContainer.style.display = 'none';
+      };
+    });
+  }
+
+  closePreviewTab();
+  
+  
+
   // //new
   // const leftChevron = document.getElementById('prevBtn');
   // const rightChevron = document.getElementById('nextBtn');

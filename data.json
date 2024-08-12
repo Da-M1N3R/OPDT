@@ -1,16 +1,19 @@
 [
     {
-      "name": "Monkey D Luffy",
+      "name": "Monkey D. Luffy",
       "price": 13.00,
       "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1143808533708681266/img_chara_luffy_fift01_l.png?ex=66b1d035&is=66b07eb5&hm=f0357ef430132deef1ead88d7b7d19f615dad13885abf484d97b9da5b05dea1d&=&format=webp&quality=lossless&width=630&height=630",
-        "https://media.discordapp.net/attachments/539614946020032513/1238096776284733470/img_chara_luffy_eggh01_l-1.png?ex=66b0bd7a&is=66af6bfa&hm=b4a995ecd4bce569a610ef949535c15df38554c22385523f104a3bdf492205ac&=&format=webp&quality=lossless&width=630&height=630",
         "https://optc-db.github.io/api/images/full/transparent/3/800/3886.png", 
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0004.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/200/0217.png",
         "https://optc-db.github.io/api/images/full/transparent/1/500/1593.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/000/2033.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/300/2363.png",
-        "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Y1hgWZZoMu96_7Tbi7z8fw.png"
+        "./images/luffy_g5.webp",
+        "./images/luffy_egghead.webp",
+        "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Y1hgWZZoMu96_7Tbi7z8fw.png",
+        "./images/luffy_g5_2.webp"
       ]
     },
     {
@@ -18,11 +21,12 @@
       "price": 12.50,
       "image": "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1247159722948165642/img_chara_zoro_eggh01_l.png?ex=66b0c081&is=66af6f01&hm=e0a4b561b57a1e20daf67f006b61ff1b10410ba5b7cbec8192a518152254aff0&=&format=webp&quality=lossless&width=630&height=630",
         "https://optc-db.github.io/api/images/full/transparent/4/000/4090.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/300/1361.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/900/1900.png", 
-        "https://optc-db.github.io/api/images/full/transparent/2/400/2477.png"
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2477.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0008.png",
+        "./images/zoro_egghead.webp"
       ]
     },
     {
@@ -30,8 +34,8 @@
       "price": 9.50,
       "image": "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
       "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1366.png",
         "https://optc-db.github.io/api/images/full/transparent/3/700/3789.png", 
-        "https://optc-db.github.io/api/images/full/transparent/1/300/1366.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/000/3066.png"
       ]
     },
@@ -40,11 +44,11 @@
       "price": 13.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
       "extras": [
-        "./images/Shanks_Manga_Color_Scheme.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/700/2737.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/700/1707.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/300/1380.png", 
-        "https://optc-db.github.io/api/images/full/transparent/4/000/4056.png"
+        "https://optc-db.github.io/api/images/full/transparent/4/000/4056.png",
+        "./images/Shanks_Manga_Color_Scheme.webp"
       ]
     },
     {
@@ -52,15 +56,15 @@
       "price": 13.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
       "extras": [
-        "./images/Dracule_Mihawk_Egghead_Arc_Anime_Concept_Art.webp",
-        "./images/Kokutou_Yoru.webp",
-        "./images/Mihawk_2007_Calendar.webp",
-        "./images/Yoru_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/1/800/1807.png", 
         "https://optc-db.github.io/api/images/full/transparent/1/800/1881.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/100/2185.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/200/2256.png",
-        "https://optc-db.github.io/api/images/full/transparent/4/100/4177.png"
+        "https://optc-db.github.io/api/images/full/transparent/4/100/4177.png",
+        "./images/Dracule_Mihawk_Egghead_Arc_Anime_Concept_Art.webp",
+        "./images/Kokutou_Yoru.webp",
+        "./images/Yoru_Concept_Art.webp",
+        "./images/Mihawk_2007_Calendar.webp"
       ]
     },
     {
@@ -123,13 +127,16 @@
       ]
     },
     {
-      "name": "Marshall D Teach",
+      "name": "Marshall D. Teach",
       "price": 13.20,
       "image": "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
       "extras": [
         "./images/Blackbeard_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/900/2963.png",
-        "https://optc-db.github.io/api/images/full/transparent/2/900/2964.png"
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2964.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/500/3532.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/900/1937.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3821.png"
       ]
     },
     {
@@ -137,6 +144,7 @@
       "price": 12.55,
       "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
       "extras": [
+        "./images/Kuzan_Egghead_Arc_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/1/600/1668.png",
         "https://optc-db.github.io/api/images/full/transparent/2/000/2024.png"
       ]
@@ -146,7 +154,6 @@
       "price": 9.20,
       "image": "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/880320288150138880/img_chara_coby_serg01_l.png?ex=66b10968&is=66afb7e8&hm=a452735d8111750868314e78d21cea2bcfb87daf767641b16b204f305e4ed07b&=&format=webp&quality=lossless&width=437&height=437",
         "./images/Koby_Digitally_Colored_Manga.webp"
       ]
     },
@@ -165,7 +172,8 @@
       "price": 15,
       "image": "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
       "extras": [
-        "./images/Monkey_D_Dragon_Anime_Concept_Art.webp"
+        "./images/Monkey_D_Dragon_Anime_Concept_Art.webp",
+        "./images/Monkey_D._Dragon_Manga_Color_Scheme.webp"
       ]
     },
     {
@@ -173,6 +181,7 @@
       "price": 13.40,
       "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
       "extras": [
+        "./images/Sakazuki_Post-Timeskip_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/1/300/1313.png",
         "https://optc-db.github.io/api/images/full/transparent/1/300/1314.png"
       ]
@@ -202,10 +211,14 @@
       "price": 12.05,
       "image": "https://static.wikia.nocookie.net/onepiece/images/f/f2/Rob_Lucci_Portrait.png/",
       "extras": [
-        "https://optc-db.github.io/api/images/full/transparent/2/600/2669.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/500/2582.png",
         "https://optc-db.github.io/api/images/full/transparent/0/700/0737.png",
-        "https://optc-db.github.io/api/images/full/transparent/1/800/1881.png",
-        "https://i.ytimg.com/vi/B31VJWiRF-M/maxresdefault.jpg"
+        "https://optc-db.github.io/api/images/full/transparent/2/700/2784.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/000/2014.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/700/0748.png",
+        "./images/img_chara_lucci_eggh01_l.webp",
+        "https://i.ytimg.com/vi/B31VJWiRF-M/maxresdefault.jpg",
+        "https://optc-db.github.io/api/images/full/transparent/2/500/2538.png"
       ]
     },
     {
@@ -213,21 +226,28 @@
       "price": 13.00,
       "image": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1062266935494053968/img_chara_kaido_jinj01_l.png?ex=66b07aad&is=66af292d&hm=d3a2e2e7a76f05f4ca340a945c6f5a6e164bab04b1d9480633fcdcc8616d9e86&=&format=webp&quality=lossless&width=630&height=630",
+        "./images/Kaidou_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/600/2613.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/600/2699.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/600/3608.png",
         "https://optc-db.github.io/api/images/full/transparent/3/900/3983.png",
+        "./images/img_chara_kaido_jinj01_l.webp",
         "./images/Kosanze_Ragnaraku.webp"
-      ]
+      ],
+      "factions": "Beast Pirates",
+      "devilfruit": "nika DF",
+      "Moves": ["Raime Hakkei", "Thunder Bagua", "Conqueror of Three Worlds Ragnarok"]
     },
     {
       "name": "Yamato",
       "price": 12.05,
       "image": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Yamato_Portrait.png/",
       "extras": [
-        "https://opbr-en.bn-ent.net/assets/data/webp/character/0014_2d.png.webp",
-        "https://media.discordapp.net/attachments/539614946020032513/922363053046112276/img_chara_yamato_orig01_l.png?ex=66b06608&is=66af1488&hm=d3a1604cb3a34e9ed2369493273c8dc44a5e314deeec00a9c9d25ee828266daf&=&format=webp&quality=lossless&width=630&height=630"
+        "./images/Yamato_Anime_Concept_Art.PNG.webp",
+        "./images/img_chara_yamato_orig01_l.webp",
+        "./images/img_chara_yamato_jinj01_l.webp",
+        "./images/Yanato29.webp",
+        "./images/Yamato29.webp"
       ]
     },
     {
@@ -235,8 +255,9 @@
       "price": 12.20,
       "image": "https://static.wikia.nocookie.net/onepiece/images/7/70/King_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1054309374035775548/img_chara_king_orig01_l.png?ex=66b0889e&is=66af371e&hm=a1e2b5e2a08be2e8124a9041929d5f3a64b725085a83ea25829656d2e46fd1c4&=&format=webp&quality=lossless&width=630&height=630",
-        "https://media.discordapp.net/attachments/539614946020032513/1156133841220677672/img_chara_king_face01_l.png?ex=66b0828b&is=66af310b&hm=a5ea68c6154347070b1f0b5905586fd19d6c22e2669a7cd6e0e7013dd0bc22be&=&format=webp&quality=lossless&width=630&height=630",
+        "./images/King_Anime_Concept_Art.webp",
+        "./images/img_chara_king_orig01_l.webp",
+        "./images/img_chara_king_face01_l.webp",
         "./images/Lunarians_Infobox.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/900/2990.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/100/3136.png"
@@ -247,8 +268,8 @@
       "price": 11.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/a/aa/Queen_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/931094629917556817/img_chara_queen_orig01_l.png?ex=66b085f2&is=66af3472&hm=402d12a24b95b2dfa87111a6a316835f64b8d82faf4432d19d1f27199ad661c9&=&format=webp&quality=lossless&width=630&height=630",
-        "https://media.discordapp.net/attachments/539614946020032513/1156133841560424448/img_chara_queen_jinj01_l.png?ex=66b0828b&is=66af310b&hm=7caebb3b93f842493994550a871bcad99bed44b50606a57f677ef04dbc9f0e8e&=&format=webp&quality=lossless&width=630&height=630",
+        "./images/Queen_Anime_Concept_Art.webp",
+        "./images/img_chara_queen_jinj01_l.webp",
         "https://optc-db.github.io/api/images/full/transparent/3/500/3540.png",
         "https://optc-db.github.io/api/images/full/transparent/3/200/3239.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/800/3802.png"
@@ -259,7 +280,7 @@
       "price": 10.15,
       "image": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Jack_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/931094629372268585/img_chara_jack_orig01_l.png?ex=66b085f2&is=66af3472&hm=e2055b2f33630973e66728829c58a4a960a450d91da9b12eff78e5033ae02321&=&format=webp&quality=lossless&width=630&height=630",
+        "./images/Jack_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/200/2231.png",
         "https://optc-db.github.io/api/images/full/transparent/2/400/2433.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/800/3870.png"
@@ -270,7 +291,7 @@
       "price": 8.50,
       "image": "https://static.wikia.nocookie.net/onepiece/images/9/9f/Page_One_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/974317199655338145/img_chara_pageone_orig01_l.png?ex=66b0e19a&is=66af901a&hm=b80c75effbf2c73a0aa460e23be52621e76d1f63ef08e1f7b4d40502af0799ac&=&format=webp&quality=lossless&width=630&height=630",
+        "./images/img_chara_pageone_orig01_l.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/900/2983.png",
         "https://optc-db.github.io/api/images/full/transparent/2/900/2984.png"
       ]
@@ -280,7 +301,7 @@
       "price": 9.10,
       "image": "https://static.wikia.nocookie.net/onepiece/images/c/cb/Ulti_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/974317200049582101/img_chara_ulti_orig01_l.png?ex=66b0e19a&is=66af901a&hm=74909d3c3b845a15ee3bfa63e1fba9679f80c02017bdaa34b4504e23bf68e646&=&format=webp&quality=lossless&width=630&height=630",
+        "./images/img_chara_ulti_orig01_l.webp",
         "https://optc-db.github.io/api/images/full/transparent/3/700/3770.png",
         "https://optc-db.github.io/api/images/full/transparent/3/600/3655.png"
       ]
@@ -290,10 +311,10 @@
       "price": 9.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Who%27s-Who_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1070585362352705566/img_chara_whoswho_jinj01_l.png?ex=66b06b50&is=66af19d0&hm=bad4694a082069f076640d58e0edb0b6e0922618f4de79d1bd7069b71870ecc8&=&format=webp&quality=lossless&width=630&height=630",
         "https://optc-db.github.io/api/images/full/transparent/3/400/3435.png",
         "https://optc-db.github.io/api/images/full/transparent/3/600/3651.png", 
-        "https://optc-db.github.io/api/images/full/transparent/3/700/3778.png"
+        "./images/img_chara_whoswho_jinj01_l.webp",
+        "./images/Who27s_Dagger.webp"
       ]
     },
     {
@@ -301,9 +322,9 @@
       "price": 7.60,
       "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Black_Maria_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1174635356423991296/img_chara_blackmaria_orig01_l.png?ex=66b094ec&is=66af436c&hm=2a6d96755371b9b8d69f1b46b2c21d690c904ef7e96cc36be0bc7e57baf17fcb&=&format=webp&quality=lossless&width=630&height=630",
         "https://optc-db.github.io/api/images/full/transparent/3/400/3434.png",
-        "https://optc-db.github.io/api/images/full/transparent/3/600/3649.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3649.png",
+        "./images/img_chara_blackmaria_orig01_l.webp", 
         "https://optc-db.github.io/api/images/full/transparent/3/800/3872.png"
       ]
     },
@@ -312,9 +333,9 @@
       "price": 7.50,
       "image": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Sasaki_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1153609088119341066/6-2.png?ex=66b08daf&is=66af3c2f&hm=9e1ea63016b285a2ec44803a36af5fa8d3051c0c981cdec8931cbf34a8240401&=&format=webp&quality=lossless&width=630&height=630",
         "https://optc-db.github.io/api/images/full/transparent/3/400/3431.png",
         "https://optc-db.github.io/api/images/full/transparent/3/600/3653.png", 
+        "./images/6-2.webp",
         "https://optc-db.github.io/api/images/full/transparent/3/800/3875.png"
       ]
     },
@@ -323,7 +344,6 @@
       "price": 8.80,
       "image": "https://static.wikia.nocookie.net/onepiece/images/5/5c/X_Drake_Portrait.png/",
       "extras": [
-        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88fefd64-6436-4727-bab5-ffe4195dd46a/dgp2dyp-8ef3a3fd-ed6b-4ac9-b6c3-a7477c92bcbf.png/v1/fit/w_828,h_828/x_drake_1_by_acal1998_dgp2dyp-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzg4ZmVmZDY0LTY0MzYtNDcyNy1iYWI1LWZmZTQxOTVkZDQ2YVwvZGdwMmR5cC04ZWYzYTNmZC1lZDZiLTRhYzktYjZjMy1hNzQ3N2M5MmJjYmYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.v3sc4JTt4LeqV79nZ_h4zkpzsRt8-Fmu_jeTw0HCsIg",
         "https://optc-db.github.io/api/images/full/transparent/3/400/3436.png",
         "https://optc-db.github.io/api/images/full/transparent/2/900/2985.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/100/3142.png"
@@ -447,14 +467,14 @@
       "price": 13.00,
       "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Charlotte_Linlin_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1058995000836366466/img_chara_bigmom_wano01_l.png?ex=66b070f3&is=66af1f73&hm=46fb27b8e108c6ea79ce77a70f3080a8871a5f8b2d1d0a894826effdea0bce95&=&format=webp&quality=lossless&width=630&height=630",
         "https://optc-db.github.io/api/images/full/transparent/2/600/2612.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/500/2500.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/400/2473.png",
-        "https://optc-db.github.io/api/images/full/transparent/2/400/2472.png",
         "https://optc-db.github.io/api/images/full/transparent/3/000/3001.png",
         "https://optc-db.github.io/api/images/full/transparent/3/700/3765.png",
-        "https://optc-db.github.io/api/images/full/transparent/3/900/3972.png"
+        "https://optc-db.github.io/api/images/full/transparent/3/900/3972.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2472.png",
+        "./images/img_chara_bigmom_wano01_l.webp"
       ]
     },
     {
@@ -474,8 +494,7 @@
       "image": "https://static.wikia.nocookie.net/onepiece/images/0/0b/Charlotte_Smoothie_Portrait.png/",
       "extras": [
         "https://optc-db.github.io/api/images/full/transparent/2/200/2237.png", 
-        "./images/Smoothie_Digitally_Colored_Manga.webp", 
-        "https://static.wikia.nocookie.net/onepiece/images/c/cc/Charlotte_Smoothie_Anime_Full_View.png"
+        "./images/Charlotte_Smoothie_Anime_Full_View.webp"
       ]
     },
     {
@@ -483,7 +502,6 @@
       "price": 9.50,
       "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Charlotte_Cracker_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1079998450843783218/img_chara_cracker_orig01_l.png?ex=66b062f0&is=66af1170&hm=9b933811cbad46509f1389853deaecd2f5bc3eef9f2501ece30e51c8c2bc9183&=&format=webp&quality=lossless&width=630&height=630",
         "https://optc-db.github.io/api/images/full/transparent/2/100/2158.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/200/2241.png"
       ]
@@ -493,8 +511,7 @@
       "price": 10.10,
       "image": "https://static.wikia.nocookie.net/onepiece/images/e/ec/Charlotte_Perospero_Portrait.png/",
       "extras": [
-        "./images/Charlotte_Perospero_Anime_Full_View.webp",
-        "https://media.discordapp.net/attachments/539614946020032513/981887474483744888/img_chara_perospero_orig01_l.png?ex=66b0bc78&is=66af6af8&hm=3df6d68b32c779e65925816ca33f039b6df75da72de8f5dc576f511508b11947&=&format=webp&quality=lossless&width=630&height=630",
+        "https://optc-db.github.io/api/images/full/transparent/2/200/2240.png",
         "https://optc-db.github.io/api/images/full/transparent/2/200/2239.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/000/3093.png",
         "https://optc-db.github.io/api/images/full/transparent/3/500/3598.png"
@@ -506,8 +523,7 @@
       "image": "https://static.wikia.nocookie.net/onepiece/images/0/09/Charlotte_Compote_Portrait.png/",
       "extras": [
         "https://optc-db.github.io/api/images/full/transparent/2/300/2350.png", 
-        "./images/Charlotte_Compote_Anime_Concept_Art.webp",
-        "https://optc-db.github.io/api/images/full/transparent/3/500/3598.png"
+        "./images/Charlotte_Compote_Anime_Concept_Art.webp"
       ]
     },
     {
@@ -515,10 +531,10 @@
       "price": 8.15,
       "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Charlotte_Daifuku_Portrait.png/",
       "extras": [
-        "./images/Daifuku_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/200/2243.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/100/3159.png",
-        "https://optc-db.github.io/api/images/full/transparent/2/200/2244.png"
+        "https://optc-db.github.io/api/images/full/transparent/2/200/2244.png",
+        "./images/Daifuku_Anime_Concept_Art.webp"
       ]
     },
     {
@@ -526,11 +542,10 @@
       "price": 8.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Charlotte_Oven_Portrait.png/",
       "extras": [
-        "./images/Oven_Anime_Concept_Art.webp",
-        "https://media.discordapp.net/attachments/539614946020032513/1085800704280625162/img_chara_oven_orig01_l.png?ex=66b066b5&is=66af1535&hm=35493ed327004ec4c1ba82e43c08d3b10f407e294e3fb47d212f3023c32232e1&=&format=webp&quality=lossless&width=630&height=630",
         "https://optc-db.github.io/api/images/full/transparent/2/300/2322.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/100/2120.png",
-        "https://optc-db.github.io/api/images/full/transparent/2/100/2121.png"
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2121.png",
+        "./images/Oven_Anime_Concept_Art.webp"
       ]
     },
     {
@@ -538,10 +553,10 @@
       "price": 8.10,
       "image": "https://static.wikia.nocookie.net/onepiece/images/e/e7/Charlotte_Amande_Portrait.png/",
       "extras": [
-        "./images/Charlotte_Amande_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/100/2116.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/300/2327.png",
-        "https://optc-db.github.io/api/images/full/transparent/2/300/2326.png"
+        "https://optc-db.github.io/api/images/full/transparent/2/300/2326.png",
+        "./images/Charlotte_Amande_Anime_Concept_Art.webp"
       ]
     },
     {
@@ -606,7 +621,8 @@
       "price": 7.05,
       "image": "https://static.wikia.nocookie.net/onepiece/images/7/75/Charlotte_Br%C3%BBl%C3%A9e_Portrait.png/",
       "extras": [
-        "https://media.discordapp.net/attachments/539614946020032513/1079998450214653972/img_chara_brulee_orig01_l.png?ex=66b062ef&is=66af116f&hm=d531d1ce9cbfcb656e40b2b1032bb2f5979946d2cdd57c9906956d959ea72267&=&format=webp&quality=lossless&width=630&height=630",
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2114.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2115.png",
         "./images/Br3Fe_Digitally_Colored_Manga.webp"
       ]
     },
@@ -844,9 +860,10 @@
       "price": 12.05,
       "image": "https://static.wikia.nocookie.net/onepiece/images/2/22/Boa_Hancock_Portrait.png/",
       "extras": [
-        "./images/Boa_Hancock_Outfit_in_Stampede.webp",
-        "./images/Hancock_%26_Salome_Anime_Concept_Art.webp"
-
+        "https://optc-db.github.io/api/images/full/transparent/0/800/0864.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2682.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2966.png",
+        "./images/Boa_Hancock_Outfit_in_Stampede.webp"
       ]
     },
     {
@@ -880,6 +897,245 @@
       "extras": [
         "./images/Brogy_Anime_Concept_Art.webp"
       ]
+    },
+    {
+      "name": "Trafalgar D. Water Law",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/31/Trafalgar_D._Water_Law_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/300/3335.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/300/2336.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/700/1751.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/900/3970.png"
+      ]
+    },
+    {
+      "name": "Bepo",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Bepo_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/0/300/0316.png"
+      ]
+    },
+    {
+      "name": "Shachi",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/92/Shachi_Portrait.png/",
+      "extras": [
+        "./images/Shachi_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Penguin",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/de/Penguin_Portrait.png/",
+      "extras": [
+        "./images/Penguin_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Eustass Kid",
+      "price": 11.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Eustass_Kid_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/300/3337.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2111.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3631.png"
+      ]
+    },
+    {
+      "name": "Killer",
+      "price": 11.30,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d6/Killer_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2198.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2199.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/200/3228.png"
+      ]
+    },
+    {
+      "name": "Heat",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/f/fc/Heat_Portrait.png/",
+      "extras": [
+        "./images/Heat_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Wire",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/5/5a/Wire_Portrait.png/",
+      "extras": [
+        "./images/Wire_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Daz Bonez",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/72/Daz_Bonez_Portrait.png/",
+      "extras": [
+        "./images/Daz_Digitally_Colored_Manga.webp"
+      ]
+    },
+    {
+      "name": "Galdino",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/75/Galdino_Portrait.png/",
+      "extras": [
+        "./images/Galdino_Digitally_Colored_Manga.webp"
+      ]
+    },
+    {
+      "name": "Alvida",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/95/Alvida_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/800/2838.png",
+        "./images/Alvida_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Mohji",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/b5/Mohji_Portrait.png/",
+      "extras": [
+        "./images/Mohji_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Richie",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Richie_Portrait.png/",
+      "extras": [
+        "./images/Richie_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Cabaji",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/3f/Cabaji_Portrait.png/",
+      "extras": [
+        "./images/Cabaji_Digital_Colored_Manga.webp",
+        "./images/Cabaji_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Usopp",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/97/Usopp_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/400/1405.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/400/1406.png"
+      ]
+    },
+    {
+      "name": "Sanji",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/0/0c/Sanji_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1367.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/800/1814.png",
+        "./images/img_chara_sanji_atta01_l.webp"
+      ]
+    },
+    {
+      "name": "Tony Tony Chopper",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/8/84/Tony_Tony_Chopper_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/700/2786.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0021.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0022.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0023.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0024.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0025.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0026.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1339.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/400/1412.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/700/2756.png"
+      ]
+    },
+    {
+      "name": "Nico Robin",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/90/Nico_Robin_Post_Timeskip_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/500/3577.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/700/2791.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/700/3791.png"
+      ]
+    },
+    {
+      "name": "Franky",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/a/a8/Franky_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1364.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/400/1431.png"
+      ]
+    },
+    {
+      "name": "Brook",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/37/Brook_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/500/3575.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3683.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/700/3717.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/700/3763.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2488.png"
+      ]
+    },
+    {
+      "name": "Jinbe",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/f/f7/Jinbe_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/300/3345.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2610.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2611.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3892.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/400/3495.png"
+      ]
+    },
+    {
+      "name": "Nefertari Vivi",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/39/Nefertari_Vivi_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/200/2246.png"
+      ]
+    },
+    {
+      "name": "Chaka",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/2/21/Chaka_Portrait.png/",
+      "extras": [
+        "./images/Chaka_Digitally_Colored_Manga.webp",
+        "./images/Chaka_Post_Timeskip_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Pell",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/dd/Pell_Portrait.png/",
+      "extras": [
+        "./images/Pell_Digitally_Colored_Manga.webp",
+        "./images/Pell_Post_Timeskip_Anime_Concept_Art.webp"
+      ]
+    },
+    {
+      "name": "Bartholomew Kuma",
+      "price": 11.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/9/90/Bartholomew_Kuma_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/400/3426.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/100/2192.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/000/2009.png",
+        "./images/Kuma_Digitally_Colored_Manga.webp",
+        "./images/Kuma_Egghead_Arc_Anime_Concept_Art.webp"
+      ]
     }
+    
  ]
   
