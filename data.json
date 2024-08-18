@@ -233,13 +233,13 @@
       "price": 13.00,
       "image": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
       "extras": [
-        "./images/Kaidou_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/600/2613.png", 
         "https://optc-db.github.io/api/images/full/transparent/2/600/2699.png", 
         "https://optc-db.github.io/api/images/full/transparent/3/600/3608.png",
         "https://optc-db.github.io/api/images/full/transparent/3/900/3983.png",
         "./images/img_chara_kaido_jinj01_l.webp",
-        "./images/Kosanze_Ragnaraku.webp"
+        "./images/Kosanze_Ragnaraku.webp",
+        "./images/Kaidou_Anime_Concept_Art.webp"
       ],
       "factions": "Beast Pirates",
       "devilfruit": "nika DF",
@@ -250,11 +250,11 @@
       "price": 12.05,
       "image": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Yamato_Portrait.png/",
       "extras": [
-        "./images/Yamato_Anime_Concept_Art.PNG.webp",
         "./images/img_chara_yamato_orig01_l.webp",
         "./images/img_chara_yamato_jinj01_l.webp",
         "./images/Yanato29.webp",
-        "./images/Yamato29.webp"
+        "./images/Yamato29.webp",
+        "./images/Yamato_Anime_Concept_Art.PNG.webp"
       ]
     },
     {
@@ -262,12 +262,12 @@
       "price": 12.20,
       "image": "https://static.wikia.nocookie.net/onepiece/images/7/70/King_Portrait.png/",
       "extras": [
-        "./images/King_Anime_Concept_Art.webp",
+        "https://optc-db.github.io/api/images/full/transparent/3/100/3136.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2990.png", 
         "./images/img_chara_king_orig01_l.webp",
         "./images/img_chara_king_face01_l.webp",
         "./images/Lunarians_Infobox.webp",
-        "https://optc-db.github.io/api/images/full/transparent/2/900/2990.png", 
-        "https://optc-db.github.io/api/images/full/transparent/3/100/3136.png"
+        "./images/King_Anime_Concept_Art.webp"
       ]
     },
     {
@@ -275,11 +275,11 @@
       "price": 11.30,
       "image": "https://static.wikia.nocookie.net/onepiece/images/a/aa/Queen_Portrait.png/",
       "extras": [
-        "./images/Queen_Anime_Concept_Art.webp",
-        "./images/img_chara_queen_jinj01_l.webp",
         "https://optc-db.github.io/api/images/full/transparent/3/500/3540.png",
         "https://optc-db.github.io/api/images/full/transparent/3/200/3239.png", 
-        "https://optc-db.github.io/api/images/full/transparent/3/800/3802.png"
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3802.png",
+        "./images/img_chara_queen_jinj01_l.webp",
+        "./images/Queen_Anime_Concept_Art.webp"
       ]
     },
     {
@@ -287,10 +287,10 @@
       "price": 10.15,
       "image": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Jack_Portrait.png/",
       "extras": [
-        "./images/Jack_Anime_Concept_Art.webp",
         "https://optc-db.github.io/api/images/full/transparent/2/200/2231.png",
         "https://optc-db.github.io/api/images/full/transparent/2/400/2433.png", 
-        "https://optc-db.github.io/api/images/full/transparent/3/800/3870.png"
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3870.png",
+        "./images/Jack_Anime_Concept_Art.webp"
       ]
     },
     {
@@ -331,8 +331,8 @@
       "extras": [
         "https://optc-db.github.io/api/images/full/transparent/3/400/3434.png",
         "https://optc-db.github.io/api/images/full/transparent/3/600/3649.png",
-        "./images/img_chara_blackmaria_orig01_l.webp", 
-        "https://optc-db.github.io/api/images/full/transparent/3/800/3872.png"
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3872.png",
+        "./images/img_chara_blackmaria_orig01_l.webp"
       ]
     },
     {
@@ -878,7 +878,12 @@
       "price": 12.05,
       "image": "https://static.wikia.nocookie.net/onepiece/images/6/64/Boa_Sandersonia_Portrait.png/",
       "extras": [
-        "./images/Boa_Sandersonia_Anime_Concept_Art.webp"
+        "https://optc-db.github.io/api/images/full/transparent/1/700/1740.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/000/1056.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/700/1741.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/500/3561.png",
+        "./images/Boa_Sandersonia_Anime_Concept_Art.webp",
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2996.png"
       ]
     },
     {
@@ -886,7 +891,12 @@
       "price": 12.05,
       "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Boa_Marigold_Portrait.png/",
       "extras": [
-        "./images/Boa_Marigold_Anime_Concept_Art.webp"
+        "https://optc-db.github.io/api/images/full/transparent/1/700/1742.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/000/1058.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/700/1743.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/500/3546.png",
+        "./images/Boa_Marigold_Anime_Concept_Art.webp",
+        "https://optc-db.github.io/api/images/full/transparent/2/900/2996.png"
       ]
     },
     {

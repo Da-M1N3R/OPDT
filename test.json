@@ -1,25 +1,55 @@
 [
     {
-        "name": "Monkey D Luffy",
-        "price": 13.00,
-        "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
-        "extras": [
-            "https://optc-db.github.io/api/images/full/transparent/3/800/3886.png", 
-            "https://optc-db.github.io/api/images/full/transparent/1/500/1593.png", 
-            "https://optc-db.github.io/api/images/full/transparent/2/000/2033.png", 
-            "https://optc-db.github.io/api/images/full/transparent/2/300/2363.png"
-        ]
+      "name": "Monkey D. Luffy",
+      "price": 13.00,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3886.png", 
+        "https://optc-db.github.io/api/images/full/transparent/0/000/0004.png",
+        "https://optc-db.github.io/api/images/full/transparent/0/200/0217.png",
+        "https://optc-db.github.io/api/images/full/transparent/1/500/1593.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/000/2033.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/300/2363.png",
+        "./images/luffy_g5.webp",
+        "./images/luffy_egghead.webp",
+        "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Y1hgWZZoMu96_7Tbi7z8fw.png",
+        "./images/luffy_g5_2.webp"
+      ]
     },
     {
-        "name": "Roronoa Zoro",
-        "price": 12.30,
-        "image": "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
-        "extras": [
-            "https://optc-db.github.io/api/images/full/transparent/4/000/4090.png",
-            "https://optc-db.github.io/api/images/full/transparent/1/300/1361.png",
-            "https://optc-db.github.io/api/images/full/transparent/1/900/1900.png",
-            "https://optc-db.github.io/api/images/full/transparent/2/400/2477.png"
-        ]
+      "name": "Roronoa Zoro",
+      "price": 12.50,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/4/000/4090.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/300/1361.png", 
+        "https://optc-db.github.io/api/images/full/transparent/1/900/1900.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/400/2477.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/700/3754.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/800/3895.png",
+        "https://optc-db.github.io/api/images/full/transparent/2/000/2097.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/200/3224.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/300/3344.png",
+        "./images/zoro_egghead.webp",
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2663.png"
+      ]
+    },
+    {
+      "name": "Kaido",
+      "price": 13.00,
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
+      "extras": [
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2613.png", 
+        "https://optc-db.github.io/api/images/full/transparent/2/600/2699.png", 
+        "https://optc-db.github.io/api/images/full/transparent/3/600/3608.png",
+        "https://optc-db.github.io/api/images/full/transparent/3/900/3983.png",
+        "./images/img_chara_kaido_jinj01_l.webp",
+        "./images/Kosanze_Ragnaraku.webp",
+        "./images/Kaidou_Anime_Concept_Art.webp"
+      ],
+      "factions": "Beast Pirates",
+      "devilfruit": "nika DF",
+      "Moves": ["Raime Hakkei", "Thunder Bagua", "Conqueror of Three Worlds Ragnarok"]
     }
  ]
   
